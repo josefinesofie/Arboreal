@@ -25,13 +25,22 @@ CSS
 
 Ändringar:
 Headerbilden vet jag inte hur jag ska fixa eftersom den ser bra ut på min skärm och jag antar att det är så lång som bilden är. Jag vill helst inte behöva byta bild, återkommer till detta.
-Bakgrundsbild vet du Jesper att jag har haft problem att lägga in. Den kommer fram först när man hovrar, konstigt men hittar inte något lösning.
+Bakgrundsbild vet du Jesper att jag har haft problem att lägga in. Den kom fram först när man hovrade, hittade inte någon lösning. Nu när man lägger in en bakgrundsbild så finns det inget fören man hovrar och sedan scrollar upp så långt att man "går utanför bodyn". Så väljer att ha vit bakgrund.
 Ändrade mina sections på rad 50, 57 och 64 till divar och nu är det inga problem i validatorn.
 Jag la till en bakgrundsfärg på kontaktinformationen så den syns bättre.
 Jag ändrade färgen på input till svart vilket jag missat innan, den var vit när Jonas försökte skriva.
 
 ----||----
 
+Responsivitet:
+Jag har valt brytpunkten 960px för tablet även om den inte är så bred eftersom att elementen i themes flyttade sig utanför diven. Sedan ändrade jag padding på några och flyttade in kontaktinformationen till sin mitt.
+
+Till mobil satte jag brytpunkt 380px eftersom det är fem pixlar över en vanlig iphone6 vilket bör vara en okej marginal. 
+Jag förminskade loggan, minskade textstorlek på slogan och förlängde headern en bit så det får plats. Jag la även offers övanpå varandra och ändrade höjd på diven themes. Jag la in padding där det krävdes och la kontaktinformationen ovanpå formuläret.
+
+Jag har tittat på vilket responsive pattern jag efterliknat och det skulle kunna vara "Responsive UI Examples" eftersom det exemplet har flera divar bredvid varandra och på höjden som sen lägger sig ovanpå varandra eftersom man förminskar skärmen.
+"3 equal-width columns" är också likt på samma sätt att divarna lägger sig på varandra eftersom.
+Jag har också kört css:en grenom autoprefixer men inga övriga ändringar efter det.
 
 
 
